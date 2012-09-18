@@ -1,8 +1,4 @@
 class LanguagePack::Ruby < LanguagePack::Base
-  def self.use?
-    true
-  end
-
   def rgeo_url(filename = nil)
     "https://s3.amazonaws.com/camenischcreative/heroku-binaries/rgeo/#{filename}"
   end
